@@ -1,0 +1,8 @@
+#conda activate pytorch
+
+cd
+
+alias cls="clear"
+alias dps="docker ps"
+
+[ -z "$TMUX" ] && (tmux a || tmux)
